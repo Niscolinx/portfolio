@@ -1,0 +1,10 @@
+.btn{
+    font-size: 3rem;
+    text-decoration: none;
+    border-radius: .5rem;
+
+    &--icon{
+        color: $color-primary-dark;
+        font-size: 4rem;
+    }
+}

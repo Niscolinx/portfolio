@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+    padding: 10rem 0;
+    background-image: linear-gradient(to right bottom,
+     rgba($color-primary, .3),
+    rgba($color-primary-light, .1)),
+    url(/img/header-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    &__box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        animation: moveInNav 1s;
+    }
+    
+    &__btn--box{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        margin: 3rem;
+        animation: infiniteBounce 3s ease-in infinite;
+        backface-visibility: hidden;
+    }
+}

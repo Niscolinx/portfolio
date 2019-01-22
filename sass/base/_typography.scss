@@ -1,0 +1,44 @@
+body{
+    font-weight: 100;
+    font-family: inherit;
+
+    .list{
+        list-style: none;
+        color: white;
+        padding: 2rem;
+        font-size: 2rem;
+        font-weight: 300;
+        
+        &__el{ 
+            display: inline-block;
+            transition: all .3s;
+            &:not(:last-child){
+                margin-right: 3rem;
+            }
+
+            &:hover{
+                color: $color-primary-dark;
+                transform: scale(1.3);
+            }
+        }
+    }
+
+    .header__main{
+        color: white;
+        line-height: 1.5;
+        
+        &--primary{
+            animation: moveInBottom 1.2s; 
+            display: block;
+            font-size: 2rem;
+            letter-spacing: .4rem;
+            font-weight: 300;
+        }
+        
+        &--sub{
+            display: block;
+            font-size: 5rem;
+            animation: moveInRight 1s;
+        }
+    }
+}
