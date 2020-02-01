@@ -1,10 +1,23 @@
 .btn{
-    font-size: 3rem;
     text-decoration: none;
     border-radius: .5rem;
+    border: none;
 
     &--icon{
         color: $color-primary-dark;
         font-size: 4rem;
+    }
+
+    &__form{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: $default-font;
+        text-align: center;
+        cursor: pointer;
+        padding: .4rem 1rem;
+        margin: 0 auto;
+        background: white;
+        text-transform: uppercase;
     }
 }

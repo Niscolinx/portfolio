@@ -1,0 +1,114 @@
+.portfolio__card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+    .card {
+        width: 25rem;
+        box-shadow: 0 .3rem 1rem rgba(17, 15, 15, 0.548);
+        border-radius: 2rem;
+        overflow: hidden;
+
+        @include respond(tab-port1){
+            width: 20rem;
+        }
+        @include respond(tab-port){
+            flex: 0 0 60%;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+
+
+        &__picture {
+            height: 20rem;
+            background-blend-mode: screen;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+            -webkit-clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+
+
+            &--1 {
+                background-image: url(/img/tours.png);
+                background-position: top;
+                background-size: 180%;
+                background-repeat: no-repeat;
+
+                @include respond(tab-land){
+                    background-size: 200%;
+                }
+
+            }
+
+            &--2 {
+                background-image: url(/img/trillo.png);
+                background-position: top;
+                background-size: 180%;
+                background-repeat: no-repeat;
+
+                @include respond(tab-land){
+                    background-size: 200%;
+                }
+            }
+
+            &--3 {
+                background-image: url(/img/header-1.jpg);
+                background-position: center;
+                background-size: 180%;
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__details {
+            padding: 2rem;
+            margin-top: -2rem;
+        }
+
+        &__main{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 1rem;
+            color: $color-primary-dark;
+        }
+        &__text {
+            font-size: $default-font;
+            text-align: center;
+        }
+
+        &__links {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-around;
+            font-weight: 500;
+
+            &--item:link,
+            &--item:visited{
+                text-decoration: none;
+                color: $color-primary-dark;
+                border: 1px solid  $color-primary-light;
+                padding: .5rem 1rem;
+                transition: all .6s;
+                border-radius: .4rem;
+
+                @include respond(smaller-phone){
+                    align-items: center;
+                    justify-items: center;
+                    align-self: center;
+                    white-space: pre;
+                    padding: .1rem .4rem;
+
+                    &:not(:first-child){
+                        margin-left: 1rem;
+                    }
+                }
+
+                &:hover{
+                    background: $color-primary;
+                    color: white;
+                }
+            }
+        }
+    }
+}

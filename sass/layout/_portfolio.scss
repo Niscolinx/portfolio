@@ -1,0 +1,25 @@
+.portfolio{
+    font-size: $default-font;
+    
+    .heading-box{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    &__heading{
+        display: flex;
+        color: $color-primary-dark;
+        justify-content: center;
+        font-size: 3rem;
+        position: relative;
+        letter-spacing: .3rem;
+        padding-bottom: .7rem;
+        text-transform: uppercase;
+
+        @include respond(small-phone){
+            font-size: 2rem;
+        }
+    }
+}
