@@ -135,7 +135,8 @@
 
             @include respond(tab-port){
                 display: flex;
-                justify-content: center;
+                flex-wrap: wrap;
+                padding: 1rem 3rem;
             }
             
             &__items{
@@ -144,6 +145,7 @@
                 font-weight: 500;
 
                 @include respond(small-phone){
+                    padding: .5rem;
                     padding-right: 2rem
                 }
                 @include respond(smaller-phone){
