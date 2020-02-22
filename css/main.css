@@ -1065,11 +1065,12 @@ html {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-top: 3rem;
+  margin: 3rem;
 }
 
 .portfolio__card .card {
-  width: 25rem;
+  width: 30rem;
+  margin: 3rem;
   -webkit-box-shadow: 0 0.3rem 1rem rgba(17, 15, 15, 0.548);
           box-shadow: 0 0.3rem 1rem rgba(17, 15, 15, 0.548);
   -webkit-border-radius: 2rem;
@@ -1107,7 +1108,7 @@ html {
 }
 
 .portfolio__card .card__picture--1 {
-  background-image: url(/img/burger.png);
+  background-image: url(/img/fxtrem.png);
   background-position: top;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
@@ -1137,7 +1138,7 @@ html {
 }
 
 .portfolio__card .card__picture--3 {
-  background-image: url(/img/fxtrem.png);
+  background-image: url(/img/burger.png);
   background-position: center;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
