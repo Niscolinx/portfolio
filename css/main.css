@@ -768,18 +768,16 @@ body {
 }
 
 body .menu > div {
-  width: 2.5rem;
+  width: 3.5rem;
   background: #3131af;
-  height: .3rem;
+  height: .5rem;
   margin: .5rem;
-  -webkit-border-radius: .2rem;
-          border-radius: .2rem;
 }
 
 body .menu {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 1rem;
+  left: 1rem;
   z-index: 2000;
   cursor: pointer;
   display: none;
