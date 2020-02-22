@@ -1638,7 +1638,6 @@ html {
   -webkit-border-radius: .5rem;
           border-radius: .5rem;
   border: none;
-  text-transform: uppercase;
 }
 
 .contact__items:not(:last-child) {
