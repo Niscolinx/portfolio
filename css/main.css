@@ -1697,7 +1697,7 @@ html {
 }
 
 .contact__icons--item {
-  margin: 1rem;
+  margin: 1.5rem;
   width: 2.5rem;
   height: 2.57rem;
   cursor: pointer;
@@ -1711,7 +1711,7 @@ html {
 }
 
 .contact__icons--twitter {
-  margin: .3rem;
+  margin: .2rem;
   margin-top: -6rem;
   width: 2.5rem;
   height: 2.5rem;
