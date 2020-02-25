@@ -75,5 +75,16 @@
                 height: 2rem;
             }
         }
+        &--twitter{
+            margin: 1rem;
+            width: 1rem;
+            height: 1.5rem;
+            cursor: pointer;
+
+            @include respond(tab-port){
+                width: .5rem;
+                height: .5rem;
+            }
+        }
     }
 }

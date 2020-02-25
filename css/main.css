@@ -1709,4 +1709,18 @@ html {
     height: 2rem;
   }
 }
+
+.contact__icons--twitter {
+  margin: 1rem;
+  width: 1rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .contact__icons--twitter {
+    width: .5rem;
+    height: .5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
