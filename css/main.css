@@ -1711,8 +1711,7 @@ html {
 }
 
 .contact__icons--twitter {
-  margin-top: -3.1rem;
-  padding: 3rem;
+  padding: 1rem;
   width: 2.5rem;
   height: 2.5rem;
   cursor: pointer;
