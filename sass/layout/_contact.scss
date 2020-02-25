@@ -65,7 +65,7 @@
         margin-top: 2rem;
 
         &--item{
-            margin: 1.5rem;
+            margin: 1.2rem;
             width: 2.5rem;
             height: 2.57rem;
             cursor: pointer;
@@ -75,9 +75,13 @@
                 height: 2rem;
             }
         }
+
+        &--right{
+            margin-right: 2rem;
+        }
         &--twitter{
             margin: .2rem;
-            margin-top: -6rem;
+            margin-top: -3rem;
             width: 2.5rem;
             height: 2.5rem;
             cursor: pointer;
