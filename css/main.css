@@ -1106,7 +1106,7 @@ html {
 }
 
 .portfolio__card .card__picture--1 {
-  background-image: url(/img/fxtrem.png);
+  background-image: url(/img/nolimitstores.png);
   background-position: top;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
@@ -1121,7 +1121,7 @@ html {
 }
 
 .portfolio__card .card__picture--2 {
-  background-image: url(/img/rcflitehobby.png);
+  background-image: url(/img/nolimitskills.png);
   background-position: top;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
@@ -1136,7 +1136,7 @@ html {
 }
 
 .portfolio__card .card__picture--3 {
-  background-image: url(/img/burger.png);
+  background-image: url(/img/fxtrem.png);
   background-position: center;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
@@ -1151,7 +1151,7 @@ html {
 }
 
 .portfolio__card .card__picture--4 {
-  background-image: url(/img/tours.png);
+  background-image: url(/img/burger.png);
   background-position: center;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
@@ -1166,7 +1166,7 @@ html {
 }
 
 .portfolio__card .card__picture--5 {
-  background-image: url(/img/trillo.png);
+  background-image: url(/img/tours.png);
   background-position: center;
   -webkit-background-size: 180% 180%;
           background-size: 180%;
