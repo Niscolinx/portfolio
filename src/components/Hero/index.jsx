@@ -31,7 +31,7 @@ const letters = [
   "🚀",
 ];
 
-const title = ["Hello!", "I'm", "Tarun"];
+const title = ["Hello!", "I'm", "Collins"];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);
